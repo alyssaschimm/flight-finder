@@ -1,2 +1,5 @@
 .DS_Store
 context/design-templates/
+.env
+src/live-data.json
+scripts/raw/

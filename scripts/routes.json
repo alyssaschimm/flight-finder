@@ -1,0 +1,13 @@
+{
+  "_note": "Each route is searched in both directions on every date. Searches per run = routes x 2 x dates, and must stay at or under maxSearchesPerRun to keep Duffel free (1,500 searches a month at 2 runs a day).",
+  "maxSearchesPerRun": 25,
+  "dates": ["2026-12-10", "2026-12-17"],
+  "routes": [
+    ["JFK", "LAX"],
+    ["ORD", "LAX"],
+    ["SEA", "SFO"],
+    ["ATL", "MCO"],
+    ["BOS", "MIA"],
+    ["DEN", "LAS"]
+  ]
+}
